@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "campaign_id": {
+            "required": true,
+            "type": "string"
+        },
+        "Content_Type": {
+            "required": true,
+            "type": "string"
+        },
+        "X_instawell_token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

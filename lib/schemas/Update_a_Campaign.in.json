@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "The new name to be used for your C",
+                    "type": "string"
+                },
+                "image": {
+                    "description": "A URL pointing to an image to be used as the background of your Campaign.",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Welcome message seen by visitors",
+                    "type": "string"
+                },
+                "campaign_id": {
+                    "description": "The ID of the Campaign you are updating",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "Content_Type": {
+            "required": true,
+            "type": "string"
+        },
+        "X_instawell_token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

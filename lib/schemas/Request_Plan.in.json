@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "plan_id": {
+                    "description": "Required. The ID of the Plan that you want to chat about.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "plan_id"
+            ]
+        },
+        "Content_Type": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "Content_Type": {
+            "required": true,
+            "type": "string"
+        },
+        "X_instawell_token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

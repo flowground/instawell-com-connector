@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "description": "Email is a required field if you do not have an auth token. An account will automatically be created for your use.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Optional. The name of the Campaign",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Optional. Short introduction to your Campaign. This is what visitors to your Campaign page will see.",
+                    "type": "string"
+                },
+                "image": {
+                    "description": "Optional. A URL pointing to an image to be used as the background of your Campaign.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "email"
+            ]
+        },
+        "Content_Type": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
